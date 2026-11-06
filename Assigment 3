@@ -1,1 +1,104 @@
 
+/* Stage 1: Basic Page Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edf4f7;
+    color: #203c50;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #203c50;
+}
+
+
+/* Stage 2: Table Styling */
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    min-width: 950px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #c5d6df;
+    padding: 15px 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+/* Stage 3: Header and Table Rows */
+
+thead th {
+    background-color: #193e55;
+    color: white;
+    font-weight: normal;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #edf4f8;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #dcebef;
+}
+
+.brand {
+    background-color: #dcebea;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+/* Stage 4: Footer and Responsive Design */
+
+tfoot {
+    background-color: #193e55;
+    color: white;
+    font-weight: bold;
+}
+
+tfoot td,
+tfoot th {
+    padding: 16px;
+    font-size: 21px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    th, td {
+        padding: 12px 8px;
+        font-size: 15px;
+    }
+
+}
