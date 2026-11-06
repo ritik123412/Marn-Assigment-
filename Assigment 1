@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu's Portfolio</title>
+    <meta
+      name="description"
+      content="Explore the portfolio of Himanshu Verma, 
+     a passionate B.Tech Computer Science student and aspiring web developer.
+     Discover my skills, projects, and journey in web development, Java, HTML, CSS, and JavaScript."
+    />
+    <!-- <link rel="stylesheet" href="/Assignment4/portfolio.css" /> -->
+    
+  </head>
+  <body>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Skill">Skill</a>
+      <a href="#Project">Project</a>
+      <a href="#Contact">Contact</a>
+    </nav>
+    <section id="Home">
+      <header>
+        <h1>Himanshu Verma</h1>
+        <p>
+          First-Year BTech Computer Science student. My goal is to become a
+          skilled software developer.
+        </p>
+      </header>
+    </section>
+
+    <main>
+      <section id="About">
+        <h2>About Me</h2>
+        <img
+          src="/Assignment1/image.png"
+          alt="Profile photo of Himanshu Verma " width="200" height="200"
+        />
+        <p>
+          I am a first-year BTech Computer Science student with a strong passion
+          for technology and programming. I enjoy learning new programming
+          languages and frameworks.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section id="Skill">
+        <h2>Skills</h2>
+        <ul>
+          <li>Html Fundamental</li>
+          <li>Git and Github</li>
+          <li>Problem Solving</li>
+          <li>Java Script</li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <h2>Education</h2>
+      <ul>
+        <li>BTech, Computer Science - 2026-2030</li>
+        <li>Class XII - 2026</li>
+        <li>Class X - 2024</li>
+      </ul>
+
+      <h2>My College / My course</h2>
+      <ul>
+        <li>Web Development Club</li>
+        <li>Liberary and Coding lab</li>
+        <li>Abhiruchey - The Hobby Club</li>
+      </ul>
+      <p>My Learning sequence</p>
+      <ol type="number">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Responsive Layouts</li>
+        <li>JavaScript</li>
+      </ol>
+      <dl>
+        <dt>Html</dt>
+        <dd>Structur the content of a webpage</dd>
+        <dt>Css</dt>
+        <dd>Control how a webpages looks</dd>
+      </dl>
+
+      <!-- Projects -->
+      <section id="Project">
+        <h2>Projects</h2>
+        <p>My First Web Page</p>
+        <p>
+          A simple web page created using HTML. And also styling with css with
+          Functionaly using Javascript
+        </p>
+      </section>
+
+      <!-- Contact -->
+      <section id="Contact">
+        <h2>Contact</h2>
+        <p>Email: himanshusagar152@gmail.com</p>
+        <p>
+          GitHub -
+          <a href="https://github.com/himanshu43x"> Github Account Link </a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <time datetime="2026">2026</time> Himanshu Verma</p>
+    </footer>
+  </body>
+</html>
