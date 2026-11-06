@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers | Job Application</title>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Job Application Form</h1>
+            <p class="intro">Apply to join our team. Fields marked <span aria-hidden="true">*</span> are required.</p>
+        </header>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <legend>Personal Information</legend>
+            <p>
+                <label for="fname">First Name *</label><br>
+                <input type="text" id="fname" placeholder="First Name" name="fname" required>
+            </p>
+            <p>
+                <label for="lname">Last Name *</label><br>
+                <input type="text" id="lname" placeholder="Last Name" name="lname" required>
+            </p>
+            <p>
+                <label for="email">Email *</label><br>
+                <input type="email" id="email" placeholder="Email" name="email" required>
+            </p>
+            <p>
+                <label for="password">Enter your Password *</label><br>
+                <input type="password" id="password" placeholder="Password" name="password" required>
+            </p>
+            <p>
+                <label for="phone">Phone *</label><br>
+                <input type="tel" id="phone" placeholder="Phone" name="phone" required>
+            </p>
+            <p>
+                <label for="portfolio">Portfolio Url</label><br>
+                <input type="link" id="portfolio" placeholder="Portfolio Url" name="portfolio">
+            </p>
+            <p>
+                <label for="age">Enter Your Age *</label><br>
+                <input type="number" id="age" placeholder="Ex.22" name="age" required>
+            </p>
+            <p>
+            <p> Select Your Gender:</p>
+            <input type="radio" id="maleGender" name="gender" value="maleGender">
+            <label for="maleGender"> Male </label>
+            <input type="radio" id="femaleGender" name="gender" value="femaleGender" />
+            <label for="femaleGender"> Female</label>
+            <input type="radio" id="otherGender" name="gender" value="otherGender">
+            <label for="otherGender"> Other / Not preffer </label>
+            </p>
+            <legend> Education Details</legend>
+            <p>
+                <label for="course">Select your Course *</label> <br>
+                <select id="course" name="course" required>
+                    <option value="disabled selection">Select your Course</option>
+                    <option value="B.Tech">B.Tech - Computer Science</option>
+                    <option value="M.Tech">M.Tech - Computer Science</option>
+                    <option value="B.Techai">B.Tech - Artificial Intelligence and Machine Learning</option>
+                    <option value="B.Techcs">B.Tech - Computer Science and Engineering</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="BBA">BBA</option>
+                    <option value="MBA">MBA</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="M.Sc">M.Sc</option>
+                </select>
+            </p>
+            <p>
+                <label for="city">Preferred City *</label><br>
+                <input type="text" id="city" placeholder="Preferred City" name="city" required>
+                <!-- <data-list id="city">
+                    <option value="Hydrabad">
+                    <option value="Bangalore">
+                    <option value="Noida">
+                    <option value="Mumbai">
+                    <option value="Delhi">
+                </data-list> -->
+
+            </p>
+            <p>
+            <p>Select Your Skill:</p>
+            <input type="checkbox" id="java" name="userSkill" value="java">
+            <label for="java"> JAVA </label>
+
+            <br>
+            <input type="checkbox" id="html" name="userSkill" value="html">
+            <label for="html"> HTML </label>
+
+            <br>
+            <input type="checkbox" id="css" name="userSkill" value="css">
+            <label for="css"> CSS</label>
+
+            <br>
+            <input type="checkbox" id="node.js" name="userSkill" value="node.js">
+            <label for="node.js"> NODE.JS</label>
+
+            <br>
+            <input type="checkbox" id="python" name="userSkill" value="python">
+            <label for="python"> PYTHON</label>
+
+            </p>
+            <legend> Resume and Additional Information</legend>
+            <p>
+                <label id="interview" for="interview"> Available from</label><br>
+                <input type="date" id="interview" name="interview">
+                <br> <br>
+                <label for="interviewTime">Interview Time</label><br>
+                <input type="time" id="interviewTime" name="interviewTime">
+                <br> <br>
+                <label for="resume">Upload your Resume </label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                <br><br>
+                <label for="desc">Why would you like to join? </label><br><br>
+                <textarea id="desc" name="description"
+                    placeholder="I want to practice html Css on real project .."></textarea>
+
+
+            </p>
+
+        </form>
+    </main>
+</body>
+
+</html>
